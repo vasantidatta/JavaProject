@@ -13,9 +13,11 @@ public class File_read_and_write {
 		
 		FileWriter write = new FileWriter(file);
 		
-		String s = "Patiance is everything";
+		String s = "Patiance is everything , everything comes to your way";
+		String a =" wait for mud to settle";
 		
 		write.write(s);
+		write.append(a);
 		write.close();
 		
 		System.out.println("written successfully");
