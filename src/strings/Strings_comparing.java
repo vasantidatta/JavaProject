@@ -9,7 +9,9 @@ public class Strings_comparing {
 		String s1 = "Vasanti";
 		String s2 = "vasanti";
 		String s3 = "Kulkarni";
+		String s5 = "Dattatreya";
 		String a = "";
+		System.out.println(s1+" "+s5);
 		System.out.println(s==s1);
 		System.out.println(s1==r);
 		System.out.println(s2.isEmpty());
