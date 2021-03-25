@@ -12,6 +12,7 @@ public class Strings_comparing {
 		String s5 = "Dattatreya";
 		String a = "";
 		System.out.println(s1+" "+s5);
+		System.out.println(s1+" and "+s5+" are made for each other");
 		System.out.println(s==s1);
 		System.out.println(s1==r);
 		System.out.println(s2.isEmpty());
