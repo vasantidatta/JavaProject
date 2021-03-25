@@ -15,9 +15,11 @@ public class File_read_and_write {
 		
 		String s = "Patiance is everything , everything comes to your way";
 		String a =" wait for mud to settle";
+		String b = "git is version control and source code management";
 		
 		write.write(s);
 		write.append(a);
+		write.append(b);
 		write.close();
 		
 		System.out.println("written successfully");
