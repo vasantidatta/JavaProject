@@ -11,6 +11,7 @@ public class StringMethods {
 		String b = "Sarita are sisters";
 		
 		System.out.println(a+b);
+		System.out.println(a+" and "+b);
 		System.out.println("Wonderfull sisters");
 		System.out.println(str.length());
 		System.out.println(str.charAt(5));
