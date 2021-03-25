@@ -9,6 +9,7 @@ public class StringMethods {
 		String str1 = "I am cool";
 		String a = "Geeta";
 		String b = "Sarita are sisters";
+		String c = "Datta is angry man";
 		
 		System.out.println(a+b);
 		System.out.println(a+" and "+b);
