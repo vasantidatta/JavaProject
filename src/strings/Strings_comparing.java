@@ -9,6 +9,7 @@ public class Strings_comparing {
 		String s1 = "Vasanti";
 		String s2 = "vasanti";
 		String s3 = "Kulkarni";
+		String s5 = "Dattatreya";
 		String a = "";
 		System.out.println(s==s1);
 		System.out.println(s1==r);
@@ -35,7 +36,7 @@ public class Strings_comparing {
 		System.out.println(s1==s2);
 		System.out.println(s4.substring(0, 11));
 		System.out.println(s4.substring(2,8));
-		
+		System.out.println(s1+" "+s5);		
 		
 					
 
