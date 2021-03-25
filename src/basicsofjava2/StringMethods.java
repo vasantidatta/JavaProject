@@ -12,6 +12,7 @@ public class StringMethods {
 		String c = "Datta is angry man";
 		
 		System.out.println(a+b);
+		System.out.println("nothing comes without effort"+c);
 		System.out.println(str1+c);
 		System.out.println(a+" and "+b);
 		System.out.println("Wonderfull sisters");
