@@ -37,9 +37,9 @@ public class File_handling {
         
         byte[] bt = msg.getBytes();
         
-        FileWriter write = new FileWriter(file);
-        
-        write.append(msg);
+        FileOutputStream fist = new FileOutputStream(file);
+        fist.write(bt);
+        fist.close();
         
         FileReader read = new FileReader(file);
         
