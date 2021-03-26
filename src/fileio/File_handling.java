@@ -34,8 +34,10 @@ public class File_handling {
 		System.out.println("");
 		
         String msg = " cucumber is behavior driven development framework";
+        String s1 = "Feature file contains gherkin keywords";
         
         byte[] bt = msg.getBytes();
+        
         
         FileOutputStream fist = new FileOutputStream(file);
         fist.write(bt);
