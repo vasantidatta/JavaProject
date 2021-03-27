@@ -34,8 +34,12 @@ public class HashSet_basics {
 			}
 		System.out.println(hs);
 		
-	    int size = hs.size();
-	    System.out.println(size);
+	    int i = hs.size();
+	    System.out.println(i);
+	    
+	    for(int j=0;j<i;j++) {
+	    	System.out.println(j);
+	    }
 	    
 
 	}
