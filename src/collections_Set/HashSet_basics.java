@@ -41,6 +41,12 @@ public class HashSet_basics {
 	    	System.out.println(j);
 	    }
 	    
+	    Iterator<String> it= hs.iterator();
+	    
+	    while(it.hasNext()) {
+	    	System.out.println(it.next());
+	    }
+	    
 
 	}
 
