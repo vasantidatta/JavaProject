@@ -19,6 +19,15 @@ public class HashSet_basics {
 			
 			System.out.println(itr.next().toString());
 		}
+		
+		hs.remove("kulkarni");
+		
+		System.out.println(hs);
+		
+		hs.add("love");
+		hs.add("happy");
+		hs.add("peace");
+		hs.add("trust");
 
 	}
 
