@@ -33,6 +33,10 @@ public class HashSet_basics {
 			System.out.println(itr.next());
 			}
 		System.out.println(hs);
+		
+	    int size = hs.size();
+	    System.out.println(size);
+	    
 
 	}
 
