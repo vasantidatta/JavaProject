@@ -47,7 +47,8 @@ public class HashSet_basics {
 	    	System.out.println(it.next());
 	    }
 	    
-
+        hs.remove("trust");
+        System.out.println(hs);
 	}
 
 }
