@@ -28,6 +28,11 @@ public class HashSet_basics {
 		hs.add("happy");
 		hs.add("peace");
 		hs.add("trust");
+		
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+			}
+		System.out.println(hs);
 
 	}
 
